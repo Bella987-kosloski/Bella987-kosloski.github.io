@@ -4,7 +4,7 @@
 </header>
 <nav>
 	<ul>
-		<li><a href="inicio">Início</a></li>
+		<li><a href="/">Início</a></li>
 		<li><a href="filmes">filmes</a></li>
 		<li><a href="Livro">Livro</a></li>
 
@@ -19,19 +19,19 @@
 			<img src="/fogo.jfif" alt="Capa do livro A Canção de Gelo e Fogo" />
 			<h3>A Canção de Gelo e Fogo</h3>
 			<p>Por George R.R. Martin</p>
-			<a href="leiamais">Leia Mais</a>
+			<a href="#">Leia Mais</a>
 		</div>
 		<div class="book">
 			<img src="/1984.jfif" alt="Capa do livro 1984" />
 			<h3>1984</h3>
 			<p>Por George Orwell</p>
-			<a href="leiamais">Leia Mais</a>
+			<a href="#">Leia Mais</a>
 		</div>
 		<div class="book">
 			<img src="/pripri.jfif" alt="Capa do livro O Pequeno Príncipe" />
 			<h3>O Pequeno Príncipe</h3>
 			<p>Por Antoine de Saint-Exupéry</p>
-			<a href="leiamais">Leia Mais</a>
+			<a href="#">Leia Mais</a>
 		</div>
 	</div>
 </div>
