@@ -1,21 +1,124 @@
-export const gêneros = ['Ação', 'Animação', 'Aventura', 'Comédia', 'Drama', 'Família', 'Fantasia', 'Faroeste', 'Guerra', 'Mistério', 'Musical', 'Romance', 'Suspense'];
+export const gêneros = ['Ação', 'Animação', 'Aventura', 'Comédia', 'Drama', 'Família', 'Fantasia', 'Faroeste', 'Guerra', 'Mistério', 'Musical', 'Romance', 'Suspense'];  
 
-export const filmes = [{ título: "O Circo", ano: "1928", gêneros: ["Comédia", "Família", "Romance"], sinopse: "O vagabundo Carlitos é confundido com um ladrão e vai se refugiar num circo, onde se transforma na atração principal e revolta-se contra o tirânico proprietário do circo.", imagem: "https://m.media-amazon.com/images/M/MV5BN2M4ZWMyNmUtNjI3My00NDE3LThmZjgtMDgzNTU2NGFjZWJmXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0018773/" },
-  { título: "Tempos Modernos", ano: "1936", gêneros: ["Comédia", "Drama", "Romance"], sinopse: "Um vagabundo luta para viver na sociedade industrial moderna com a ajuda de uma jovem.", imagem: "https://m.media-amazon.com/images/M/MV5BYzk1MDkxMWUtMTFmYS00YzA0LWE1YjctZjAxNjUwZTJkNTZkXkEyXkFqcGdeQXVyMDUyOTUyNQ@@._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0027977/" },
- 
-  { título: "Branca de Neve e os Sete Anões", ano: "1937", gêneros: ["Animação", "Aventura", "Família", "Romance", "Fantasia", "Musical"], sinopse: "Deixada numa floresta perigosa por sua madrasta malvada, uma princesa é resgatada por sete mineiros anões que a fazem parte de sua casa.", imagem: "https://m.media-amazon.com/images/M/MV5BNWQ4N2I1MzctNGU2YS00YzYyLTgyNmEtMTliZTQ5MGYxYzlkXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0029583/" },
- 
-  { título: "...E o Vento Levou", ano: "1939", gêneros: ["Drama", "Romance", "Guerra"], sinopse: "Uma mulher manipuladora e uma truhan embarcam em um romance turbulento durante a Guerra Civil Americana e o período da Reconstrução.", imagem: "https://m.media-amazon.com/images/M/MV5BYjUyZWZkM2UtMzYxYy00ZmQ3LWFmZTQtOGE2YjBkNjA3YWZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0031381/" },
-  
-  { título: "No Tempo das Diligências", ano: "1939", gêneros: ["Aventura", "Drama", "Faroeste"], sinopse: "Um grupo de pessoas que viajam por uma diligência acham sua jornada complicada pela ameaça de Geronimo, mas conseguem aprender alguma coisa sobre cada uma delas no processo.", imagem: "https://m.media-amazon.com/images/M/MV5BYmRiMGVhYmQtMzVhZi00NGI3LTg1OTItYWM2NzA5YzI4NDE1XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0031971/" },
- 
-  { título: "O Grande Ditador", ano: "1940", gêneros: ["Comédia", "Drama", "Guerra"], sinopse: "O ditador Hynkel tenta expandir seu império enquanto um pobre barbeiro judeu tenta evitar a perseguição do regime de Hynkel.", imagem: "https://m.media-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0032553/" },
- 
-  { título: "Dumbo", ano: "1941", gêneros: ["Animação", "Aventura", "Drama", "Família", "Fantasia", "Musical"], sinopse: "Ridicularizado por suas enormes orelhas, um jovem elefante de circo é auxiliado por um rato a alcançar todo o seu potencial.", imagem: "https://m.media-amazon.com/images/M/MV5BMmU1NjQ3YjktZGMxYS00N2IwLTllZWQtOGNjYWE4MzgxNzk2XkEyXkFqcGdeQXVyODU2MDg1NzU@._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0033563/" },
- 
-  { título: "Casablanca", ano: "1942", gêneros: ["Drama", "Romance", "Guerra"], sinopse: "O proprietário cético de uma boate protege um antigo amor e seu marido dos nazistas no Marrocos.", imagem: "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0034583/" },
- 
-  { título: "O Tesouro da Sierra Madre", ano: "1948", gêneros: ["Aventura", "Drama", "Faroeste"], sinopse: "Dois americanos em busca de trabalho no México convencem um homem a ajudá-los a extrair ouro nas montanhas da Serra Madre.", imagem: "https://m.media-amazon.com/images/M/MV5BOTJlZWMxYzEtMjlkMS00ODE0LThlM2ItMDI3NGQ2YjhmMzkxXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0040897/" },
- 
-  { título: "Janela Indiscreta", ano: "1954", gêneros: ["Drama", "Mistério", "Suspense"], sinopse: "Um fotógrafo em uma cadeira de rodas espiona seus vizinhos pela janela de seu apartamento e está convencido de que um deles cometeu um assassinato.", imagem: "https://m.media-amazon.com/images/M/MV5BMjE4YjMxZGEtYTBmMi00OTQwLThjN2EtN2Y0ZGJjMmMxOWM4XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg", referência: "https://www.imdb.com/pt/title/tt0047396/" } ];
-
+export const filmes = [
+    { 
+        título: "Matrix", 
+        ano: "1999", 
+        gêneros: ["Ação", "Ficção Científica", "Suspense"], 
+        sinopse: "Um programador de computador descobre que a realidade em que vive é uma simulação criada por máquinas para subjugar a humanidade.", 
+        img: 'matrix.jfif',
+        referência: "https://www.imdb.com/title/tt0133093/" 
+    },
+    { 
+        título: "O Senhor dos Anéis: A Sociedade do Anel", 
+        ano: "2001", 
+        gêneros: ["Aventura", "Fantasia", "Drama"], 
+        sinopse: "Frodo Baggins, um jovem hobbit, é encarregado de destruir o Anel do Poder, uma arma mágica que pode destruir o mundo.", 
+        img: "https://m.media-amazon.com/images/M/MV5BM2MyNjY3NzctZDQ2MS00YjAyLWI4NjctN2I0YjhhM2Y1MzE1XkEyXkFqcGdeQXVyMTI1NzY3ODc@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0120737/" 
+    },
+    { 
+        título: "Forrest Gump", 
+        ano: "1994", 
+        gêneros: ["Drama", "Romance"], 
+        sinopse: "A história de Forrest Gump, um homem com um QI baixo, mas com um coração grande, que se torna parte de momentos históricos significativos dos EUA.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMjIxMjU4MTI1OV5BMl5BanBnXkFtZTcwMDc3MzA4Mw@@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0109830/" 
+    },
+    { 
+        título: "O Poderoso Chefão", 
+        ano: "1972", 
+        gêneros: ["Crime", "Drama"], 
+        sinopse: "A história de uma poderosa família de mafiosos, a família Corleone, e o processo de sucessão de poder dentro da organização.", 
+        img: "https://m.media-amazon.com/images/M/MV5BM2MyNjY3NzctZDQ2MS00YjAyLWI4NjctN2I0YjhhM2Y1MzE1XkEyXkFqcGdeQXVyMTI1NzY3ODc@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0068646/" 
+    },
+    { 
+        título: "Inception", 
+        ano: "2010", 
+        gêneros: ["Ação", "Ficção Científica", "Suspense"], 
+        sinopse: "Um ladrão que invade os sonhos das pessoas é contratado para implantar uma ideia na mente de um CEO, em uma missão aparentemente impossível.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMTc5OTMwMDEwOF5BMl5BanBnXkFtZTcwNjMwNzQ2Mw@@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt1375666/" 
+    },
+    { 
+        título: "O Rei Leão", 
+        ano: "1994", 
+        gêneros: ["Animação", "Aventura", "Família", "Musical"], 
+        sinopse: "Simba, um jovem leão, deve assumir seu lugar como o rei da savana, após a morte de seu pai, enfrentando seu tio traiçoeiro.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMTc5NTg5NzA4M15BMl5BanBnXkFtZTgwNzA4Mzg2NzE@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0110357/" 
+    },
+    { 
+        título: "Jurassic Park", 
+        ano: "1993", 
+        gêneros: ["Aventura", "Ficção Científica", "Mistério"], 
+        sinopse: "Em uma ilha remota, cientistas clonam dinossauros, mas quando as criaturas escapam, um grupo de pessoas luta para sobreviver.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMTcxOTY4MjM1NF5BMl5BanBnXkFtZTcwNzE5Mzc3Mw@@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0107290/" 
+    },
+    { 
+        título: "Star Wars: Episódio IV - Uma Nova Esperança", 
+        ano: "1977", 
+        gêneros: ["Ação", "Aventura", "Ficção Científica"], 
+        sinopse: "Luke Skywalker se junta a um grupo de rebeldes para destruir a Estrela da Morte e derrotar o império maligno.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMTcwMTcwMTU2NV5BMl5BanBnXkFtZTgwNzg2Mjg0Nw@@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0076759/" 
+    },
+    { 
+        título: "Gladiador", 
+        ano: "2000", 
+        gêneros: ["Ação", "Aventura", "Drama"], 
+        sinopse: "Após a traição do imperador, um general romano se torna um gladiador e busca vingança em uma arena brutal.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMjA3NTkxODgwMF5BMl5BanBnXkFtZTcwMjQ4NzQ5Mw@@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0172495/" 
+    },
+    { 
+        título: "Cidadão Kane", 
+        ano: "1941", 
+        gêneros: ["Drama", "Mistério"], 
+        sinopse: "Um repórter tenta desvendar o significado da palavra 'Rosebud' enquanto investiga a vida do magnata de mídia Charles Foster Kane.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMTc3NzA3NjE3Nl5BMl5BanBnXkFtZTgwNjA3Mzg3NzE@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0033467/" 
+    },
+    { 
+        título: "O Silêncio dos Inocentes", 
+        ano: "1991", 
+        gêneros: ["Crime", "Drama", "Mistério"], 
+        sinopse: "Uma jovem agente do FBI pede ajuda ao criminoso canibal Hannibal Lecter para capturar outro assassino em série.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMjA4ODc5MTgxOF5BMl5BanBnXkFtZTgwNTczNzM2MTE@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0102926/" 
+    },
+    { 
+        título: "Pulp Fiction", 
+        ano: "1994", 
+        gêneros: ["Crime", "Drama"], 
+        sinopse: "Várias histórias de crime se entrelaçam em Los Angeles, com personagens e situações caóticas envolvendo gangsters, boxeadores e outros.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMjI1OTMwMjk3MF5BMl5BanBnXkFtZTcwMjY0NzQ2Mw@@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0110912/" 
+    },
+    { 
+        título: "O Exterminador do Futuro", 
+        ano: "1984", 
+        gêneros: ["Ação", "Ficção Científica", "Suspense"], 
+        sinopse: "Um cyborg do futuro é enviado de volta no tempo para matar a mãe do líder da resistência humana contra as máquinas.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMzU3NzQ2NzctZTRhYy00MzY4LTk2MGUtZDJjZGJmZDkxZDNiXkEyXkFqcGdeQXVyMTMwMTY2NTA@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0088247/" 
+    },
+    { 
+        título: "Titanic", 
+        ano: "1997", 
+        gêneros: ["Drama", "Romance"], 
+        sinopse: "Dois jovens se apaixonam a bordo do RMS Titanic, mas sua história de amor é interrompida pelo trágico naufrágio do navio.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMTc2NjAzMzg1M15BMl5BanBnXkFtZTgwMzMwMTQ5MTE@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt0120338/" 
+    },
+    { 
+        título: "Vingadores: Ultimato", 
+        ano: "2019", 
+        gêneros: ["Ação", "Aventura", "Ficção Científica"], 
+        sinopse: "Os Vingadores tentam reverter os danos causados por Thanos ao universo, após ele conseguir destruir metade da vida no universo.", 
+        img: "https://m.media-amazon.com/images/M/MV5BMjM2NzA5Nzg0MV5BMl5BanBnXkFtZTgwMzg0OTg4NzE@._V1_.jpg", 
+        referência: "https://www.imdb.com/title/tt1838556/" 
+    }
+];
