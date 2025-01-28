@@ -5,9 +5,9 @@
 <nav>
 	<ul>
 		<li><a href="inicio">Início</a></li>
-		<li><a href="sobre">Sobre</a></li>
-		<li><a href="coleção">Coleção</a></li>
-		<li><a href="contato">Contato</a></li>
+		<li><a href="filmes">filmes</a></li>
+		<li><a href="Livro">Livro</a></li>
+
 	</ul>
 </nav>
 
@@ -16,19 +16,19 @@
 
 	<div class="book-list">
 		<div class="book">
-			<img src="capa_canco_de_gelo_e_fogo.jpg" alt="Capa do livro A Canção de Gelo e Fogo" />
+			<img src="/fogo.jfif" alt="Capa do livro A Canção de Gelo e Fogo" />
 			<h3>A Canção de Gelo e Fogo</h3>
 			<p>Por George R.R. Martin</p>
 			<a href="leiamais">Leia Mais</a>
 		</div>
 		<div class="book">
-			<img src="capa_1984.jpg" alt="Capa do livro 1984" />
+			<img src="/1984.jfif" alt="Capa do livro 1984" />
 			<h3>1984</h3>
 			<p>Por George Orwell</p>
 			<a href="leiamais">Leia Mais</a>
 		</div>
 		<div class="book">
-			<img src="capa_pequeno_principe.jpg" alt="Capa do livro O Pequeno Príncipe" />
+			<img src="/pripri.jfif" alt="Capa do livro O Pequeno Príncipe" />
 			<h3>O Pequeno Príncipe</h3>
 			<p>Por Antoine de Saint-Exupéry</p>
 			<a href="leiamais">Leia Mais</a>

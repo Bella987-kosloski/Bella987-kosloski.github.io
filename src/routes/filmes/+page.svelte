@@ -58,7 +58,7 @@
             <div class="card h-100">
                 <div class="row g-0">
                     <div class="col-3 col-sm-4">
-                        <img src={filme.imagem} class="img-fluid rounded-start" alt="capa do filme" />
+                        <img src={filme.img} class="img-fluid rounded-start" alt="capa do filme" />
                     </div>
                     <div class="col-sm-8">
                         <div class="card-body">
